@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<div style="text-align: center;">
+		<p style="font-size: 600%;">Jumbo-BUD</p>
+	  </div>
+    <script>
+      function zmienTlo() {
+        var tlo = document.body;
+        tlo.style.backgroundColor = tlo.style.backgroundColor == "red" ? "blue" : "red";
+      }
+      setInterval(zmienTlo, 100);
+    </script>
+  </head>
+  <body>
+  </body>
+	<style>
+		body {
+		  background-color: rgb(41, 41, 41);
+		}
+		</style>
+	<title>JAMBO-BUD</title>
+	<style type="text/css">
+		#logo {
+			text-align: center;
+			margin-top: 20px;
+		}
+		
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 20px auto;
+			max-width: 800px;
+		}
+		.gallery img {
+			margin: 10px;
+			max-width: 300px;
+			max-height: 300px;
+			object-fit: cover;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+		.gallery img:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+		}
+	</style>
+</head>
+<body>
+	<div id="logo">
+		<img src="logokolo.png" alt="logo">
+	</div>
+	<div style="text-align: center;">
+		<p style="font-size: xx-large;">OFERUJEMY:</p>
+	  </div>
+	<div class="gallery">
+		<img src="miejscaPracy.png" alt="image1">
+		<img src="ciecie.png" alt="image2">
+		<img src="info-noem.png" alt="image3">
+		<img src="sekretarka.png" alt="image4">
+		<img src="zakwaterowanie.png" alt="image5">
+		<img src="balaś.png" alt="image6">
+		<img src="kasynorojal.png" alt="image7">
+		<img src="raszplajebana.png" alt="image8">
+	</div>
+</body>
+</html>
